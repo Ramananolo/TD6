@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(57, 55, 55);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.formulaire {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    position: absolute;
+    top: 20vh;
+    height: 37vh;
+    width: 40vw;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+    background-color: rgba(248, 242, 242, 0.699);
+}
+.nom{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 10vh;
+}.prenom{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.prenom input{
+    height: 3vh;
+    background-color: rgba(255, 255, 255, 0.361);
+    border: none;
+}
+.contenue_f1{
+    margin-left: 0.4vw;
+}
+.contenue_f2{
+    margin-left: 1.8vw;
+}
+.contenue_f3{
+    margin-left: 2vw;
+}
+
+.registor {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 5vw;
+    border: none;
+    margin-top: 2vh;
+    height: 5vh;
+}
+.exit {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 5vw;
+    border: none;
+    height: 7vh;
+    background-color: rgba(23, 22, 22, 0.973);
+    color: white;
+}
+
+
